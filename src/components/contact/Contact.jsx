@@ -1,7 +1,7 @@
 import { MdPhoneIphone } from "react-icons/md";
 import { BiSolidContact } from "react-icons/bi";
 import { useDispatch } from "react-redux";
-import { deleteContact } from "../../redux/contactsSlice";
+import { deleteContact } from "../../redux/contactOps";
 import styles from "./Contact.module.css";
 
 const Contact = ({ id, name, number }) => {
